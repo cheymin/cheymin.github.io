@@ -9,46 +9,96 @@ template: page
 
 # 页面分类与站点列表
 categories:
-  - name: 置顶
-    icon: fas fa-star # 分类图标
+  - name: 自建服务
+    icon: fas fa-server
     sites:
-      - name: Linux.do # 站点名称
-        url: https://linux.do/ # http/https URL（favicon 模式将尝试加载站点图标）
-        icon: fab fa-linux # 手动图标：manual 模式使用；favicon 模式下作为回退
-        description: 新的理想型社区 # 站点描述
-      - name: Menav
-        url: https://rbetree.github.io/menav
-        icon: fas fa-star
-        description: 个人导航站
-        faviconUrl: assets/menav.svg
-      - name: Google
-        url: https://www.google.com
-        icon: fab fa-google
-        description: 全球最大的搜索引擎
+      - name: 我的主页
+        url: https://346247.xyz/
+        icon: fas fa-home
+        description: 个人主页
+      - name: 我的博客
+        url: https://blog.346247.xyz/
+        icon: fas fa-blog
+        description: Hexo博客，发布技术教程
+      - name: 博客后台管理
+        url: https://cms.346247.xyz/
+        icon: fas fa-cog
+        description: Hexo管理面板
+      - name: 博客重定向
+        url: https://flyblog.qzz.io/
+        icon: fas fa-redo
+        description: 博客重定向页面
+      - name: 订阅管理
+        url: https://dy.346247.xyz/
+        icon: fas fa-rss
+        description: 我的订阅管理
+      - name: 密码管理
+        url: https://passwd.346247.xyz/
+        icon: fas fa-lock
+        description: SecureVault密码管理
+      - name: 图床
+        url: https://pan.346247.xyz/
+        icon: fas fa-image
+        description: 我的图床服务
+      - name: 监测后台
+        url: https://int.346247.xyz/
+        icon: fas fa-chart-line
+        description: Uptime kuma监测
+      - name: AstrBot
+        url: https://astrbot.346247.xyz/
+        icon: fas fa-robot
+        description: AstrBot聊天机器人
+      - name: Napcat
+        url: https://napcat.346247.xyz/
+        icon: fas fa-cat
+        description: Napcat服务
+      - name: Vercel CMS
+        url: https://flyminos.qzz.io/
+        icon: fas fa-database
+        description: Vercel CMS后台
+      - name: Alist
+        url: https://alist.346247.xyz/
+        icon: fas fa-cloud
+        description: Alist网盘管理
+      - name: Vaultwarden
+        url: https://key.346247.xyz/
+        icon: fas fa-key
+        description: Vaultwarden密码管理
+  - name: 开发工具
+    icon: fas fa-code
+    sites:
       - name: GitHub
-        url: https://www.github.com
+        url: https://github.com/
         icon: fab fa-github
         description: 代码托管平台
-      - name: Stack Overflow
-        url: https://stackoverflow.com
-        icon: fab fa-stack-overflow
-        description: 程序员问答社区
-      - name: ChatGPT
-        url: https://chat.openai.com
-        icon: fas fa-robot
-        description: AI智能助手
-      - name: YouTube
-        url: https://www.youtube.com
-        icon: fab fa-youtube
-        description: 视频分享平台
-      - name: Twitter
-        url: https://twitter.com
-        icon: fab fa-twitter
-        description: 社交媒体平台
-      - name: Reddit
-        url: https://www.reddit.com
-        icon: fab fa-reddit
-        description: 社区讨论平台
+      - name: Vercel
+        url: https://vercel.com/
+        icon: fas fa-cloud
+        description: 云部署平台
+      - name: Netlify
+        url: https://app.netlify.com/
+        icon: fas fa-globe
+        description: 网站托管服务
+      - name: Cloudflare
+        url: https://dash.cloudflare.com/
+        icon: fas fa-shield-alt
+        description: CDN和安全服务
+      - name: Supabase
+        url: https://supabase.com/
+        icon: fas fa-database
+        description: 后端即服务
+      - name: ClawCloud Run
+        url: https://ap-northeast-1.run.claw.cloud/
+        icon: fas fa-play
+        description: 云运行服务
+      - name: HuggingFace
+        url: https://huggingface.co/
+        icon: fas fa-brain
+        description: AI模型平台
+      - name: SiliconFlow
+        url: https://cloud.siliconflow.cn/
+        icon: fas fa-cube
+        description: API服务平台
   - name: 学习资源
     icon: fas fa-graduation-cap
     sites:
@@ -114,30 +164,135 @@ categories:
         url: https://excalidraw.com
         icon: fas fa-pencil-alt
         description: 手绘风格图表工具
-  - name: 云服务平台
-    icon: fas fa-cloud
+  - name: AI工具
+    icon: fas fa-robot
     sites:
-      - name: Cloudflare
-        url: https://www.cloudflare.com
-        icon: fas fa-cloud
-        description: CDN与安全服务
-      - name: Vercel
-        url: https://vercel.com
-        icon: fas fa-server
-        description: 前端部署平台
-      - name: Netlify
-        url: https://www.netlify.com
-        icon: fas fa-globe
-        description: 静态网站托管
-      - name: AWS
-        url: https://aws.amazon.com
-        icon: fab fa-aws
-        description: 亚马逊云服务
-      - name: Azure
-        url: https://azure.microsoft.com
-        icon: fab fa-microsoft
-        description: 微软云平台
-      - name: Google Cloud
-        url: https://cloud.google.com
+      - name: DeepSeek
+        url: https://chat.deepseek.com/
+        icon: fas fa-comment
+        description: DeepSeek AI助手
+      - name: 通义
+        url: https://www.qianwen.com/
+        icon: fas fa-brain
+        description: 阿里云AI助手
+      - name: ChatGPT
+        url: https://chat.openai.com/
+        icon: fas fa-robot
+        description: OpenAI AI助手
+  - name: 音乐工具
+    icon: fas fa-music
+    sites:
+      - name: MyFreeMP3
+        url: https://tools.liumingye.cn/music/
+        icon: fas fa-headphones
+        description: 在线音乐播放器
+  - name: 文件工具
+    icon: fas fa-file
+    sites:
+      - name: 文件转换
+        url: https://www.freeconvert.com/
+        icon: fas fa-exchange-alt
+        description: 在线文件格式转换
+  - name: 常用网站
+    icon: fas fa-star
+    sites:
+      - name: Google
+        url: https://www.google.com
         icon: fab fa-google
-        description: 谷歌云平台
+        description: 全球最大的搜索引擎
+      - name: 哔哩哔哩
+        url: https://www.bilibili.com/
+        icon: fas fa-play-circle
+        description: 视频学习平台
+      - name: 工具网站
+        url: https://www.xiaozhongjishu.com/
+        icon: fas fa-tools
+        description: 小工具集合网站
+  - name: 多媒体与设计
+    icon: fas fa-film
+    sites:
+      - name: 555电影网
+        url: https://55ckb.art/
+        icon: fas fa-film
+        description: 在线电影观看网站
+      - name: 歌曲宝
+        url: https://www.gequbao.com/
+        icon: fas fa-music
+        description: 在线音乐搜索和播放
+      - name: PPT压缩
+        url: https://filecompress.org/zh-cn/documents-tools/compress-pptx
+        icon: fas fa-compress
+        description: PPT文件在线压缩工具
+  - name: 资源与网盘
+    icon: fas fa-cloud-download-alt
+    sites:
+      - name: 盘友圈
+        url: https://panyq.com/
+        icon: fas fa-users
+        description: 网盘资源分享社区
+      - name: 奈斯搜索
+        url: https://www.niceso.net/
+        icon: fas fa-search
+        description: 阿里云盘资源搜索
+      - name: 易搜
+        url: https://yiso.fun/
+        icon: fas fa-search-plus
+        description: 多功能资源搜索引擎
+      - name: 云盘资源网
+        url: https://www.yunpanziyuan.xyz/
+        icon: fas fa-cloud
+        description: 云盘资源分享网站
+      - name: Filepursuit
+        url: https://filepursuit.com/
+        icon: fas fa-file-search
+        description: 全球文件资源搜索引擎
+      - name: 星火应用
+        url: https://app.huohua.me/
+        icon: fas fa-rocket
+        description: 应用下载和资源分享
+      - name: 奇秀工具箱
+        url: https://www.qijishow.com/down/index.html
+        icon: fas fa-toolbox
+        description: 多功能在线工具箱
+      - name: 哲风壁纸
+        url: https://haowallpaper.com/
+        icon: fas fa-image
+        description: 免费4K高清壁纸下载
+      - name: 搜片
+        url: https://soupian.pro/
+        icon: fas fa-video
+        description: 影视资源搜索网站
+      - name: 资源网
+        url: https://heeee.com/
+        icon: fas fa-database
+        description: 综合资源分享平台
+      - name: 云盘资源搜索
+        url: https://pansou.app/
+        icon: fas fa-search
+        description: 云盘资源搜索引擎
+  - name: 娱乐与社区
+    icon: fas fa-gamepad
+    sites:
+      - name: 免费游戏
+        url: https://itch.io/games/free
+        icon: fas fa-gamepad
+        description: 独立游戏免费下载平台
+      - name: 表情包搜索网
+        url: https://www.dbbqb.com/
+        icon: fas fa-smile
+        description: 表情包搜索和下载网站
+      - name: SOOGIF
+        url: https://www.soogif.com/
+        icon: fas fa-photo-video
+        description: GIF动图制作和搜索平台
+  - name: 技术与开发
+    icon: fas fa-cogs
+    sites:
+      - name: 小众技术工具库
+        url: https://www.xiaozhongjishu.com
+        icon: fas fa-toolbox
+        description: 小众技术工具和资源导航
+      - name: KMS激活
+        url: https://kms.cx/
+        icon: fas fa-key
+        description: Windows系统一键激活工具
